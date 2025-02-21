@@ -1,0 +1,47 @@
+
+.btn {
+	min-width: 100px;
+	padding: 10px;
+	border-radius: 3px;
+	font-weight: bold;
+	background: none;
+	outline: none;
+	transition: .4s;
+	cursor: pointer;
+	margin-left: 10px;
+	
+}
+
+.btn:disabled {
+	cursor: auto;
+	border: 1px solid gray;
+	color: gray;
+}
+
+.btn:disabled:hover {
+	cursor: auto;
+	border: 1px solid gray;
+	color: gray;
+	background-color: transparent;
+}
+
+
+.dark{
+	border: 1px solid white;
+	color: white;
+}
+
+.dark:hover {
+	color: black;
+	background-color:  white;
+}
+
+.light {
+	color: black;
+	border: 1px solid black;
+}
+
+.light:hover {
+	color: white;
+	background-color: black;
+}

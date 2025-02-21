@@ -1,0 +1,72 @@
+:root {
+	--color-dark: black;
+	--color-white : white;
+	--color-dark-gray : #10100e;
+	--color-blu:#6a83fb ;
+	--color-violet: #ae72c2;
+	--color-yellow:#ffff00 ;
+	--color-red: #f75d83;
+
+	--spacing-medium :    20px;
+	--spacing-large :     30px;
+	--spacing-small:      10px;
+	--spacing-ultrasmall: 5px;
+
+	--margin-list: 7px;
+
+	--border-radius-small:  3px;
+	--border-radius-medium: 5px;
+
+	--font-bold: bold ; 
+	--font-family-main: sans-serif;
+	--font-size-header:    26px;
+	--font-size-sabheader: 16px ;
+
+	--transition: 0.4s;
+
+	--theme-neitral-header: #cccc46;
+	--theme-dark-header: #ca6c6f;
+	--theme-light-header: white;
+	--theme-default-header: var(--theme-universe-header);
+
+	--text-shadow :
+		 0 0 2px var(--color-white),
+		 0 0 40px var(--color-blu);
+		 --text-shadow-yellow:
+		 0 0 2px var(--color-white),
+		 0 0 40px var(--color-yellow);
+		--max-width: 1200px;
+
+
+		--theme-neitral-bgimage:var(--color-dark-gray);
+		--theme-dark-bgimage:  linear-gradient(to top, #ffaeae, #b97f83, #775358, #3b2c2f, #000000);
+		--theme-light-bgimage:  linear-gradient(to top, #101410, #121a11, #132012, #132613, #132c13);
+		--theme-default-bgimage: var(--theme-neitral-bgimage);
+}
+
+
+
+
+
+body{
+	margin: 0; 	
+	padding: 0;
+	background-color: var(--color-dark-gray);
+	font-family: var(--font-family-main);
+	background-image: var(--theme-default-bgimage);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top left;
+	background-attachment: fixed;
+}
+
+.header__text{
+	line-height: 1.7;
+	text-shadow: 0 0 2px var(--color-dark);
+	font-size: var(--font-size-header);
+	transition: color var(--transition);
+	color: var(--theme-default-header);
+}
+img {
+	display: block;
+}

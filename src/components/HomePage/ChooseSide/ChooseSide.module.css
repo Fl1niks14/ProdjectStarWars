@@ -1,0 +1,29 @@
+.container{
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 40px;
+}
+.item__light {
+	text-shadow: 0 0 5px #29e52d;
+	color: #29e52d;
+}
+
+.item__dark {
+	text-shadow: 0 0 5px #d82228;
+	color: #d82228;
+}
+
+.item__neitral {
+	text-shadow: 0 0 5px #ffff00;
+	color: #ffff00;
+}
+
+.item__light:hover {
+	box-shadow: 0 0 7px 2px #29e52d;
+}
+.item__neitral:hover {
+	box-shadow: 0 0 7px 2px #ffff00;
+}
+.item__dark:hover{
+	box-shadow: 0 0 7px 2px #d82228;
+}

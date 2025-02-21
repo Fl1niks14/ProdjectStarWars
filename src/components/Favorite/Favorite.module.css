@@ -1,0 +1,33 @@
+.container{
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 35px;
+	height: 35px;
+	margin-left: auto;
+	flex-shrink: 0;
+}
+
+.counter{
+	position: absolute;
+	top: -5px ;
+	right: -5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 20px;
+	height: 20px;
+	font-size: 13px;
+	font: var(--font-bold);
+	color: var(--color-dark);
+	text-decoration: none;
+	background-color: var(--color-white);
+	border-radius: 50px;
+	box-shadow: var(--text-shadow);
+}
+.bookmark {
+	width: 35px;
+	height: 35px;
+	object-fit: cover;
+	object-position: center center;
+} 

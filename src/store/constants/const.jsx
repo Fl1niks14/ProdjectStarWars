@@ -1,0 +1,2 @@
+export const ADD_PERSON_TO = 'ADD_PERSON_TO'
+export const REMOVE_PERSON_TO = 'REMOVE_PERSON_TO'
