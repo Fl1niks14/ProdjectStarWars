@@ -12,6 +12,11 @@ npm run dev              #  development environment
 npm run build            # builds the app for production
 
 ```
+```bash
+# Preview
+npm run preview            # Preview
+
+```
 ---
 
 
